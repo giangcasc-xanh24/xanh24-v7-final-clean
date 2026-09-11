@@ -1,6 +1,6 @@
 {
   "name": "xanh24-v7-day3-final-clean",
-  "version": "7.7.5-day7-ultimate-fix-syntax-14.2.35-patched-CVE-2025-66478-0-errors-0-warnings",
+  "version": "7.7.6-day7-fix-14.2.35-patched-add-typescript",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,6 +11,9 @@
     "next": "14.2.35",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "@supabase/supabase-js": "2.45.4"
+    "@supabase/supabase-js": "2.45.4",
+    "typescript": "5.4.5",
+    "@types/react": "18.3.3",
+    "@types/node": "20.11.0"
   }
 }
