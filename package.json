@@ -1,6 +1,6 @@
 {
   "name": "xanh24-v7-day3-final-clean",
-  "version": "7.4.0-day4-vnpay-webhook-distribution-adminlogs",
+  "version": "7.5.0-day5-middleware-captive-yubikey-pwa-telegram",
   "private": true,
   "scripts": {
     "dev": "next dev",
