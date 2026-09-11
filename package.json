@@ -1,6 +1,6 @@
 {
   "name": "xanh24-v7-day3-final-clean",
-  "version": "7.8.0-day8c-testing-ktx-b-real-1247-sv-analytics-sentry-backup",
+  "version": "7.8.1-day8a-real-api-keys-production-vnpt-telegram-yubikey-env-template",
   "private": true,
   "scripts": {
     "dev": "next dev",
