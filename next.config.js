@@ -1,2 +1,6 @@
-const nextConfig = { typescript: { ignoreBuildErrors: true }, eslint: { ignoreDuringBuilds: true } }
-module.exports = nextConfig
+/** @type {import('next').NextConfig} */
+module.exports = {
+  typescript: { ignoreBuildErrors: true },
+  eslint: { ignoreDuringBuilds: true },
+  experimental: { esmExternals: false }
+}
