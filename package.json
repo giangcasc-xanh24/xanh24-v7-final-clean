@@ -1,6 +1,6 @@
 {
   "name": "xanh24-v7-day3-final-clean",
-  "version": "7.6.0-day6-fullstack-final-admin-analytics-vnpt-hardening",
+  "version": "7.7.0-day7-ultimate-monitoring-scaling-auto-deploy-domain-vnpt-real-telegram-yubikey",
   "private": true,
   "scripts": {
     "dev": "next dev",
