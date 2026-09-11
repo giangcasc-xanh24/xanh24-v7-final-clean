@@ -1,6 +1,6 @@
 {
   "name": "xanh24-v7-day3-final-clean",
-  "version": "7.7.0-day7-ultimate-monitoring-scaling-auto-deploy-domain-vnpt-real-telegram-yubikey",
+  "version": "7.7.1-day7-ultimate-fix-themeColor-viewport-29-warnings",
   "private": true,
   "scripts": {
     "dev": "next dev",
