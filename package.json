@@ -1,6 +1,6 @@
 {
   "name": "xanh24-v7-day3-final-clean",
-  "version": "7.7.1-day7-ultimate-fix-themeColor-viewport-29-warnings",
+  "version": "7.7.3-day7-ultimate-fix-security-next-15.3.5-patched-0-warnings",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,15 +8,9 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "14.2.33",
+    "next": "15.3.5",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "@supabase/supabase-js": "2.45.4"
-  },
-  "devDependencies": {
-    "typescript": "5.4.5",
-    "@types/react": "18.3.3",
-    "@types/node": "20.12.12",
-    "@types/react-dom": "18.3.0"
   }
 }
