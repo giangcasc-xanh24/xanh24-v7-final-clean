@@ -1,6 +1,6 @@
 {
   "name": "xanh24-v7-day3-final-clean",
-  "version": "7.5.0-day5-middleware-captive-yubikey-pwa-telegram",
+  "version": "7.6.0-day6-fullstack-final-admin-analytics-vnpt-hardening",
   "private": true,
   "scripts": {
     "dev": "next dev",
