@@ -1,1 +1,1 @@
-export default function Page(){return <div style={padding:24}><h1>exclusive - Phase1 Go Live Thang 10 - CHECKIN_1789105301946 TT 846985 - Build Ready</h1><a href='/'>Home Day8 FINAL</a></div>}
+export default function Page(){return (<div style={{padding:24}}><h1>exclusive - Phase1 - Fixed V2</h1><a href='/'>Home</a><p>CHECKIN_1789105301946 Fixed double braces</p></div>)}
