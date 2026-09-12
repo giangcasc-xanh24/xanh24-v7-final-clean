@@ -1,1 +1,1 @@
-export default function Page(){return (<div><h1>ENV Setup Day8A Phase1 Fixed V3 - Build Ready 0 Errors</h1><p>VNPT 509952 MB 48% - Telegram Real - YubiKey Real - Mock OK Need Real Keys - Admin Pricing 100k editable - .env.example</p><p>CHECKIN_1789105301946 TT 846985 KTX B 10.10.1.23 - Build Ready V3 - 0 errors - Fixed no style object</p><a href='/'>Home</a></div>)}
+export default function Page(){return <div><h1>env Fixed V4</h1></div>}
