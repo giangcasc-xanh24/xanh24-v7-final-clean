@@ -1,1 +1,1 @@
-export default function Page(){return (<div><h1>Admin Dashboard 1247 SV - Fixed V3</h1><p>Admin-Khoi X0-X6 - Day6 Day7 Day8 Phase1 - Build Ready V3</p><p>CHECKIN_1789105301946 TT 846985 KTX B 10.10.1.23 - Build Ready V3 - 0 errors - Fixed no style object</p><a href='/'>Home</a></div>)}
+export default function Page(){return <div><h1>Admin Dashboard 1247 SV - CHECKIN_1789105301946</h1></div>}

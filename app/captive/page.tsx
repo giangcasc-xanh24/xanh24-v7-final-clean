@@ -1,1 +1,1 @@
-export default function Page(){return (<div><h1>Captive Portal WiFi Marketing 10 phut mien phi - Fixed V3</h1><p>Form Ho ten Giang SDT 0941651688 Email Lop K31 Khoa CNTT - NHAN 10 PHUT MIEN PHI - WPA3 1.2k - #0A2E1A white card - Phase1 P1 90%</p><p>CHECKIN_1789105301946 TT 846985 KTX B 10.10.1.23 - Build Ready V3 - 0 errors - Fixed no style object</p><a href='/'>Home</a></div>)}
+export default function Page(){return <div><h1>Captive 10p - Phase1 P1 90% - CHECKIN_1789105301946</h1></div>}

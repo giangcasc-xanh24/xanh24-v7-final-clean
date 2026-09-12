@@ -1,1 +1,1 @@
-export async function GET(){return Response.json({success:true,status:"Ready Latest V3 - 0 errors - Next 14.2.35 - Day8 FINAL FIX V3 - Phase1 Go Live - CHECKIN_1789105301946 - Fixed no style object - Build Ready",checkin:"CHECKIN_1789105301946",tt:"846985"})}
+export async function GET(){return Response.json({success:true,checkin:'CHECKIN_1789105301946'})}

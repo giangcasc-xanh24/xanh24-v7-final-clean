@@ -1,1 +1,1 @@
-export default function Page(){return (<div><h1>Monitoring Day7 ULTIMATE - Fixed V3</h1><p>Edge 481 Function 24 Error 0% Latency p50 45ms p95 120ms p99 280ms Uptime 99.99% Scaling 3 instances hkg1 sin1 iad1 - Fixed no style</p><p>CHECKIN_1789105301946 TT 846985 KTX B 10.10.1.23 - Build Ready V3 - 0 errors - Fixed no style object</p><a href='/'>Home</a></div>)}
+export default function Page(){return <div><h1>Monitoring - CHECKIN_1789105301946</h1></div>}

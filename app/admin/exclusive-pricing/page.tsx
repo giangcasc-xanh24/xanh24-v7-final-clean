@@ -1,0 +1,1 @@
+export default function Page(){return <div><h1>Admin Exclusive Pricing Config 100k Tuy chinh M15 - CHECKIN_1789105301946</h1></div>}

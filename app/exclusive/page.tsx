@@ -1,1 +1,1 @@
-export default function Page(){return (<div><h1>Exclusive 100.000d/thang BEST VALUE K31 - Fixed V3</h1><p>QR PVcomBank CTY TNHH CN & TT XANH24 100.000d X24 K31 0941651688 - Benefits WiFi Workshop +20 Xu Voucher - Admin Pricing 100k editable - Phase1 P2 70%</p><p>CHECKIN_1789105301946 TT 846985 KTX B 10.10.1.23 - Build Ready V3 - 0 errors - Fixed no style object</p><a href='/'>Home</a></div>)}
+export default function Page(){return <div><h1>Exclusive 100k - Phase1 P2 70% - Admin Pricing editable - CHECKIN_1789105301946</h1></div>}
