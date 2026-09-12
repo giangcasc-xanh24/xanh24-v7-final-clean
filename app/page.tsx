@@ -1,1 +1,1 @@
-export default function Page(){return <div><h1>Day8 FINAL + Phase1 Go Live - CHECKIN_1789105301946 - Full 12 Routes Stable</h1></div>}
+export default function Page(){return <div><h1>Day8 FINAL + Phase1 Go Live - CHECKIN_1789105301946 - Full 12 Routes Stable - Fix PWA</h1><script dangerouslySetInnerHTML={{__html: "if('serviceWorker' in navigator){navigator.serviceWorker.getRegistrations().then(r=>r.forEach(reg=>reg.unregister())); caches.keys().then(ks=>ks.forEach(k=>caches.delete(k)));}"}} /></div>}
