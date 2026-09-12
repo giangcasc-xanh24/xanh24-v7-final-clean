@@ -1,1 +1,1 @@
-export default function Page(){return <div><h1>Exclusive 100k - Phase1 P2 70% - Admin Pricing editable - CHECKIN_1789105301946</h1></div>}
+export default function Page(){return <div><h1>Exclusive 100k Admin Pricing</h1></div>}

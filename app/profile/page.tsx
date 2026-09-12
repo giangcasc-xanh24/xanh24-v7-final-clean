@@ -1,1 +1,1 @@
-export default function Page(){return <div><h1>Profile Tab - Phase1 P7 50%</h1></div>}
+export default function Page(){return <div><h1>Profile</h1></div>}

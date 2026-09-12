@@ -1,1 +1,1 @@
-export default function Page(){return <div><h1>Captive 10p - Phase1 P1 90% - CHECKIN_1789105301946</h1></div>}
+export default function Page(){return <div><h1>Captive 10p</h1></div>}

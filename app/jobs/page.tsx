@@ -1,1 +1,1 @@
-export default function Page(){return <div><h1>Jobs P2P Tab - Phase1 P6 20%</h1></div>}
+export default function Page(){return <div><h1>Jobs P2P</h1></div>}
