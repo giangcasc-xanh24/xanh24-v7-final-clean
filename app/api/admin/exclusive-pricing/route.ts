@@ -1,0 +1,1 @@
+export async function GET(){return Response.json({price:100000,benefits:["WiFi","Workshop +20 Xu","Voucher","P2P Tutor","Khoa AI"],editable:true,checkin:"CHECKIN_1789105301946",message:"Admin Pricing Config 100k editable Fixed V3"})} export async function PUT(req){const b=await req.json();return Response.json({success:true,price:b.price})}

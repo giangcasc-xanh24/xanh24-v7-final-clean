@@ -1,1 +1,1 @@
-export default function Page(){return <div style={{padding:24}}><h1>Admin Dashboard - 1247 SV - CHECKIN_1789105301946 - Day6 Day7 Day8 Phase1 - Build Ready</h1></div>}
+export default function Page(){return (<div><h1>Admin Dashboard 1247 SV - Fixed V3</h1><p>Admin-Khoi X0-X6 - Day6 Day7 Day8 Phase1 - Build Ready V3</p><p>CHECKIN_1789105301946 TT 846985 KTX B 10.10.1.23 - Build Ready V3 - 0 errors - Fixed no style object</p><a href='/'>Home</a></div>)}

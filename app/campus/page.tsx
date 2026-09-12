@@ -1,1 +1,1 @@
-export default function Page(){return (<div style={{padding:24}}><h1>campus - Fixed V2</h1><a href='/'>Home</a><p>CHECKIN_1789105301946 Fixed double braces</p></div>)}
+export default function Page(){return (<div><h1>Campus Tab - Tap&Go QR MSSV DD-K31-CNTT-001 - Fixed V3</h1><p>WiFi Campus Xanh24_5G_Exclusive 120 Mbps - Ban do Roman Plaza Sanh A - GPA 3.6/4.0 - Phase1 P4 30% - KYC MSSV SDT</p><p>CHECKIN_1789105301946 TT 846985 KTX B 10.10.1.23 - Build Ready V3 - 0 errors - Fixed no style object</p><a href='/'>Home</a></div>)}

@@ -1,0 +1,1 @@
+export async function GET(){return Response.json({success:true,captive:"WiFi Marketing 10 phut Fixed V3",checkin:"CHECKIN_1789105301946"})}

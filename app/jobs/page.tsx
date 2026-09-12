@@ -1,1 +1,1 @@
-export default function Page(){return <div style={padding:24}><h1>jobs - Phase1 Go Live Thang 10 - CHECKIN_1789105301946 TT 846985 - Build Ready</h1><a href='/'>Home Day8 FINAL</a></div>}
+export default function Page(){return (<div><h1>Jobs P2P Tab - Fixed V3</h1><p>Gia su 250k/buoi HOT Escrow - Thiet ke 150k - Giao do an 40k/h - Fix bug 500k/job - Leaderboard P2P - Phase1 P6 20% - Fixed no style object</p><p>CHECKIN_1789105301946 TT 846985 KTX B 10.10.1.23 - Build Ready V3 - 0 errors - Fixed no style object</p><a href='/'>Home</a></div>)}

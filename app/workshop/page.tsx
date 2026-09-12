@@ -1,1 +1,1 @@
-export default function Page(){return <div style={padding:24}><h1>workshop - Phase1 Go Live Thang 10 - CHECKIN_1789105301946 TT 846985 - Build Ready</h1><a href='/'>Home Day8 FINAL</a></div>}
+export default function Page(){return (<div><h1>Workshop Tab - Fixed V3</h1><p>Prompt Engineering +15 Xu - Huong nghiep Gen Z 2026 +20 Xu - Phase1 P5 35% - QR Check-in</p><p>CHECKIN_1789105301946 TT 846985 KTX B 10.10.1.23 - Build Ready V3 - 0 errors - Fixed no style object</p><a href='/'>Home</a></div>)}

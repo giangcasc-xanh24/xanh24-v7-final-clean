@@ -1,1 +1,1 @@
-export async function GET(){return Response.json({success:true,balance:509952,percent:'48%',checkin:'CHECKIN_1789105301946',tt:'846985',message:'VNPT Mock API - Balance 509952 MB 48% - Mock OK Need Real Key - Phase1 - Build Fixed'})}
+export async function GET(){return Response.json({success:true,balance:509952,checkin:"CHECKIN_1789105301946",message:"VNPT Mock API Fixed V3 Build Ready"})}

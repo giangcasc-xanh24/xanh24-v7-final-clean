@@ -1,1 +1,1 @@
-export default function Page(){return <div style={padding:24}><h1>profile - Phase1 Go Live Thang 10 - CHECKIN_1789105301946 TT 846985 - Build Ready</h1><a href='/'>Home Day8 FINAL</a></div>}
+export default function Page(){return (<div><h1>Profile Tab - Fixed V3</h1><p>Giang K31 CNTT MSSV DD-K31-CNTT-001 Vi Xu 1,280 Xu - Thu nhap P2P +450k - Blockchain Verify - Phase1 P7 50%</p><p>CHECKIN_1789105301946 TT 846985 KTX B 10.10.1.23 - Build Ready V3 - 0 errors - Fixed no style object</p><a href='/'>Home</a></div>)}
