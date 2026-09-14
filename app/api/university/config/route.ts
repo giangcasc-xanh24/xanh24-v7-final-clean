@@ -1,51 +1,52 @@
-import { NextRequest, NextResponse } from "next/server";
-import { createClient } from "@supabase/supabase-js";
+// app/api/university/config/route.ts - FIXED
+import { NextRequest, NextResponse } from 'next/server';
+import { createClient } from '@/lib/supabase/client';
 
-const supabase = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL!, process.env.SUPABASE_SERVICE_ROLE_KEY!);
+export const dynamic = 'force-dynamic';
+
+const DEFAULT_FIELDS = {
+  mssv: { label: 'MSSV', required: true, type: 'text' },
+  full_name: { label: 'Họ tên', required: true, type: 'text' },
+  faculty: { label: 'Khoa', required: false, type: 'select', options: ['CNTT', 'DTVT', 'KT'] },
+  dorm: { label: 'Ký túc xá', required: false, type: 'text' },
+};
 
 export async function GET(req: NextRequest) {
-  const university_id = req.nextUrl.searchParams.get("university_id") || "default";
+  try {
+    const supabase = createClient();
+    const university = req.nextUrl.searchParams.get('university') || req.nextUrl.searchParams.get('code') || 'default';
 
-  // Try Supabase
-  const { data, error } = await supabase.from("universities").select("*").eq("id", university_id).single();
+    const { data, error } = await supabase
+      .from('university_configs')
+      .select('code, name, fields_config, branding')
+      .eq('code', university)
+      .maybeSingle();
 
-  if (data) {
-    return NextResponse.json({ success: true, config: data });
-  }
+    if (error) throw error;
 
-  // Fallback mock configs for demo
-  const mockConfigs: Record<string, any> = {
-    "default": {
-      id: "default",
-      name: "FPT Polytechnic",
-      fields_config: [
-        { key: "Lop", label: "Lớp", placeholder: "DD-K31-CNTT-001", required: true },
-        { key: "Khoa", label: "Khoa", placeholder: "CNTT", options: ["CNTT","K31","QTKD","Marketing"], required: true },
-        { key: "MSSV", label: "MSSV", placeholder: "SE170123", required: true },
-        { key: "Dong", label: "Đợt", placeholder: "K31", required: false }
-      ]
-    },
-    "fpt": {
-      id: "fpt",
-      name: "FPT University",
-      fields_config: [
-        { key: "Lop", label: "Lớp", placeholder: "SE1701", required: true },
-        { key: "Khoa", label: "Chuyên ngành", placeholder: "SE", options: ["SE","AI","IoT","GD"], required: true },
-        { key: "MSSV", label: "MSSV", placeholder: "SE170123", required: true },
-        { key: "Dong", label: "Khóa", placeholder: "K17", required: true }
-      ]
-    },
-    "hutech": {
-      id: "hutech",
-      name: "HUTECH",
-      fields_config: [
-        { key: "Lop", label: "Lớp", placeholder: "20DTHA1", required: true },
-        { key: "Khoa", label: "Khoa", placeholder: "CNTT", options: ["CNTT","QTKD","NNA"], required: true },
-        { key: "MSSV", label: "MSSV", placeholder: "2080601234", required: true }
-      ]
+    if (!data) {
+      return NextResponse.json({
+        code: university,
+        name: university,
+        fields_config: DEFAULT_FIELDS,
+        branding: { primary: '#16a34a', logo: '/logo.png' },
+        fallback: true,
+      });
     }
-  };
 
-  const cfg = mockConfigs[university_id] || mockConfigs["default"];
-  return NextResponse.json({ success: true, config: cfg });
+    return NextResponse.json({
+      code: data.code,
+      name: data.name,
+      fields_config: data.fields_config || DEFAULT_FIELDS,
+      branding: data.branding,
+    });
+  } catch (e: any) {
+    console.error('[university/config]', e);
+    return NextResponse.json({
+      code: 'default',
+      fields_config: DEFAULT_FIELDS,
+      error: e.message,
+      fallback: true,
+    });
+  }
 }
